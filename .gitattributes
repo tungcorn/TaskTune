@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# The build verifies this exact upstream byte sequence. Never normalize it.
+/upstream/island-media-controls.wh.cpp -text
+*.png binary

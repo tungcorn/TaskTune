@@ -1,0 +1,39 @@
+# Local builds, installation backups, logs and private screen captures
+/dist/
+/benchmarks/
+*.dll
+*.exe
+*.pdb
+*.obj
+*.o
+*.lib
+*.a
+*.log
+*.reg
+*.bak
+*.tmp
+
+# Local environment / credentials
+.env
+.env.*
+!.env.example
+/.claude/
+/.vscode/
+/.idea/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Historical one-off upgrade / diagnostic scripts, not supported public tools
+/tools/Update-Mod.ps1
+/tools/Compare-Rotation.ps1
+/tools/Inspect-Taskbar.ps1
+/tools/Inspect-Placement.py
+
+# Keep raw screenshots local. Publish only the reviewed demo image.
+/docs/images/*
+!/docs/images/demo.png
